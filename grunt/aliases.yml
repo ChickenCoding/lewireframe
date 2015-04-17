@@ -1,2 +1,5 @@
 default:
-  - 
+  - 'newer:cssnext:build'
+  - 'newer:cssmin'
+  - 'jshint'
+  - 'newer:uglify'

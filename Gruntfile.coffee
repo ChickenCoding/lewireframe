@@ -1,4 +1,3 @@
 module.exports = (grunt) ->
-  require('load-contrib-config')(grunt)
-  require('grunt-timer')(grunt)
-  require('jit-grunt')(grunt)
+  require('time-grunt')(grunt, jitGrunt: true)
+  require('load-grunt-config')(grunt)
