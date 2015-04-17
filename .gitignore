@@ -1,2 +1,5 @@
 .todo
 nodes_modules/
+bower_components/
+dist/
+build/
