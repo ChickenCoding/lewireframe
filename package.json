@@ -1,0 +1,30 @@
+{
+  "name": "lewireframe",
+  "version": "0.0.1",
+  "description": "Wireframe designing ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChickenCoding/lewireframe.git"
+  },
+  "author": "ChickenCoding",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChickenCoding/lewireframe/issues"
+  },
+  "homepage": "https://github.com/ChickenCoding/lewireframe",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-cssmin": "^0.12.2",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-cssnext": "^1.0.0",
+    "grunt-jslint": "^1.1.14",
+    "grunt-newer": "^1.1.0",
+    "grunt-timer": "^0.6.0",
+    "jit-grunt": "^0.9.1",
+    "load-grunt-config": "^0.17.0"
+  }
+}
