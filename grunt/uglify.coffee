@@ -5,5 +5,5 @@ module.exports =
       cwd: 'build'
       src: ['elements/**/*.js']
       dest: 'dist'
-      ext: '.min.js'
+      ext: '.js'
     ]

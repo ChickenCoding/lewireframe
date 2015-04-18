@@ -1,4 +1,7 @@
 module.exports =
+  options:
+    data:
+      title: 'lewireframe - designing wireframe in the browser'
   build:
     files:
       'build/index.html' : ['src/index.html']

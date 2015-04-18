@@ -7,5 +7,5 @@ module.exports =
       cwd: 'src/'
       src: ['**/*.css']
       dest: 'build'
-      ext: '.build.css'
+      ext: '.css'
     ]

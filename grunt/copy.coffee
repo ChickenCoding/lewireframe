@@ -7,3 +7,10 @@ module.exports =
       dest: 'build'
       ext: '.js'
     ]
+  dist:
+    files: [
+      expand: true
+      cwd: 'build'
+      src: ['vendors/**/*.*']
+      dest: 'dist'
+    ]
