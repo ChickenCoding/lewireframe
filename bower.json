@@ -1,0 +1,25 @@
+{
+  "name": "lewireframe",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ChickenCoding/lewireframe",
+  "authors": [
+    "ChickenCoding"
+  ],
+  "description": "Wireframe designing",
+  "main": "index.html",
+  "keywords": [
+    "wireframe",
+    "design"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "~0.5.5"
+  }
+}
