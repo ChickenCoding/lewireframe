@@ -1,9 +1,9 @@
 module.exports =
-  dist:
+  build:
     files: [
       expand: true
-      cwd: 'build'
+      cwd: 'src'
       src: ['elements/**/*.js']
-      dest: 'dist'
-      ext: '.min.js'
+      dest: 'build'
+      ext: '.js'
     ]

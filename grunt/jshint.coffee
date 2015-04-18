@@ -1,5 +1,5 @@
 module.exports =
   options:
     jshintrc: '.jshintrc'
-  all: ['src/**/*.js']
+  all: ['src/elements/**/*.js']
 

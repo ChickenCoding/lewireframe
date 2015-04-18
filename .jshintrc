@@ -9,7 +9,6 @@
   "immed": true,
   "indent": 2,
   "latedef": true,
-  "newcap": true,
   "noarg": true,
   "noempty": true,
   "nonew": true,
@@ -22,5 +21,8 @@
   "maxdepth": 4,
   "trailing": true,
   "smarttabs": true,
-  "onevar": false
+  "onevar": false,
+  "globals": {
+    "Polymer": true
+  }
 }

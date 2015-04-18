@@ -1,5 +1,10 @@
 default:
   - 'newer:cssnext:build'
   - 'newer:cssmin'
+  - 'bower:build'
   - 'jshint'
+  - 'newer:copy:build'
+  - 'newer:babel:build'
   - 'newer:uglify'
+  - 'processhtml:build'
+  - 'processhtml:elements'

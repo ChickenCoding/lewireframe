@@ -1,0 +1,16 @@
+<!-- build:[href] ./../../vendors/polymer/polymer.html -->
+  <link rel="import" href="../../bower_components/polymer/polymer.html">
+<!-- /build -->
+<polymer-element name="profile-card">
+  <template>
+    <img src="{{imgSrc}}" alt="{{imgAlt}}"/>
+    <h1>{{username}}</h1>
+    <span class="at">@{{username}}</span>
+    <ul class="details">
+      <li>Purrs: {{purrs}}</li>
+      <li>Listening: {{listening}}</li>
+      <li>Listeners: {{listeners}}</li>
+    </ul>
+  </template>
+  <script src="./profile-card.js" type="text/javascript" charset="utf-8"></script>
+</polymer-element>
