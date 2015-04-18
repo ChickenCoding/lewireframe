@@ -1,10 +1,20 @@
 default:
+  - 'build'
+  - 'dist'
+
+build:
   - 'newer:cssnext:build'
-  - 'newer:cssmin'
   - 'bower:build'
   - 'jshint'
   - 'newer:copy:build'
   - 'newer:babel:build'
-  - 'newer:uglify'
   - 'processhtml:build'
   - 'processhtml:elements'
+
+dist:
+  - 'newer:copy:dist'
+  - 'newer:cssmin'
+  - 'newer:uglify'
+  - 'newer:html_minify:dist'
+  - 'newer:html_minify:elements'
+  - 'sizediff:dist'
