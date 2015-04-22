@@ -1,7 +1,10 @@
-module.exports = 
+module.exports =
   dist:
     src: [
-      'dist/index.html',
-      'elements/**/*.*'
+      'src/index.html',
+      'src/elements/**/*.js',
+      'src/elements/**/*.css',
+      'src/elements/**/*.html',
+      'src/stylesheets/**/*.css'
     ]
 

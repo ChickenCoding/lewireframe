@@ -1,6 +1,7 @@
 default:
   - 'build'
   - 'dist'
+  - 'newer:coffeelint:gruntfile'
 
 build:
   - 'newer:cssnext:build'
@@ -8,13 +9,19 @@ build:
   - 'jshint'
   - 'newer:copy:build'
   - 'newer:babel:build'
+  - 'newer:grunticon:build'
   - 'processhtml:build'
   - 'processhtml:elements'
+  - 'jsdoc'
 
 dist:
   - 'newer:copy:dist'
+  - 'newer:kss:dist'
+  - 'newer:jsdoc:dist'
   - 'newer:cssmin'
   - 'newer:uglify'
+  - 'newer:grunticon:dist'
   - 'newer:html_minify:dist'
   - 'newer:html_minify:elements'
   - 'sizediff:dist'
+  #- 'clean:dist'

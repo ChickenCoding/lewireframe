@@ -3,6 +3,7 @@
 <!-- /build -->
 <polymer-element name="profile-card">
   <template>
+    <link rel="stylesheet" href="profile-card.css" >
     <img src="{{imgSrc}}" alt="{{imgAlt}}"/>
     <h1>{{username}}</h1>
     <span class="at">@{{username}}</span>
@@ -13,7 +14,4 @@
     </ul>
   </template>
   <script src="./profile-card.js" type="text/javascript" charset="utf-8"></script>
-  <!-- build:css ./profile-card.css> -->
-    <link rel="stylesheet" href="./profile-card.css" type="text/css" media="all" />
-  <!-- /build -->
 </polymer-element>

@@ -1,0 +1,10 @@
+{
+  "arrow_spacing": "error",
+  "braces_spacing": "error",
+  "color_assigment_spacing": "error",
+  "line_endngs": "error",
+  "newlines_after_classes": "error",
+  "no_implicity_braces": "error",
+  "space_operators": "error",
+  "spacing_after_comma": "error"
+}

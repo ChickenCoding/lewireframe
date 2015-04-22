@@ -1,0 +1,17 @@
+:root {
+  --fontSize: 1rem;
+  --primaryBackgroundColor: wheat;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: var(--fontSize);
+  line-height: calc(var(--fontSize) * 1.5);
+  background-color: var(--primaryBackgroundColor);
+}
+

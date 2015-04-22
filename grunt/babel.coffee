@@ -3,7 +3,7 @@ module.exports =
     files: [
       expand: true
       cwd: 'src'
-      src: ['src/elements/**/*.js']
+      src: ['elements/**/*.js', 'js/modules/**/*.js']
       dest: 'build'
       ext: '.build.js'
     ]
